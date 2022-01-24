@@ -1,0 +1,19 @@
+/* :root{
+    --accent:#ff5223;
+} */
+.nav-links {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid var(--accent);
+    padding: 0 20px;
+}
+.nav-menu .nav-item:last-child .nav-links{
+    border-right:none;
+}
+.hamburger-bar{
+    height:5px;
+    width:55px;
+    margin:4px auto;
+    transition:all .75s ease-in-out;
+    background:var(--accent);
+}
