@@ -15,12 +15,23 @@ return (
 
         <div className="position-absolute triangle" style={{}}></div>
 
-        <img src="/images/Celebrating-30-years-delivering-promises.png" alt="" className="logo-triangle position-absolute" />
+        <picture>
+        <source type='image/webp' srcSet='/images/Celebrating-30-years-delivering-promises.webp' />
+        <source type='image/png' srcSet='/images/Celebrating-30-years-delivering-promises.png' />
+        <img src="/images/Celebrating-30-years-delivering-promises.png" alt="Celebrating 30 years of delivering promises" className="logo-triangle position-absolute" />
+        </picture>
+
 
         <div className="container position-relative">
             <div className="row" style={{paddingBottom:"325px"}}>
         <Link to="/" className="col-10 navbar-logo">
-                <img src="/images/DallasJib-Logo.png" width="400px" height="auto" />
+        <picture>
+        <source type='image/webp' srcSet='/images/DallasJib-Logo.webp' />
+        <source type='image/png' srcSet='/images/DallasJib-Logo.png' />
+        <img src="/images/DallasJib-Logo.png" alt="Dallas Jib logo" width="400px" height="auto" />
+        </picture>
+
+                {/* <img src="/images/DallasJib-Logo.png" width="400px" height="auto" /> */}
             </Link>
             </div>
         <div className="row align-items-center">

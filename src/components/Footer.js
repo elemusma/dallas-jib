@@ -7,7 +7,11 @@ return (
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-md-9 text-center">
-                <img src="/images/DallasJib-Logo.png" width="400px" height="auto" />
+                <picture>
+                <source type='image/webp' srcSet='/images/DallasJib-Logo.webp' />
+                <source type='image/png' srcSet='/images/DallasJib-Logo.png' />
+                <img src="/images/DallasJib-Logo.png" alt="Dallas Jib logo" width="400px" height="auto" />
+                </picture>
                 </div>
                 
                 <div className="col-md-9 text-center pt-5">
@@ -45,7 +49,11 @@ return (
                 </div>
                 <div className="col-md-9 text-center pt-5">
                     <p className="mb-0 small">Created by</p>
+                    <picture>
+                    <source type='image/webp' srcSet='/images/created-by-inside-out-creative.webp' />
+                    <source type='image/png' srcSet='/images/created-by-inside-out-creative.png' />
                     <img src="/images/created-by-inside-out-creative.png" alt="" width="175px" height="auto" />
+                    </picture>
                 </div>
             </div>
         </div>

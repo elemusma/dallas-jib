@@ -38,23 +38,40 @@ function Home() {
                 <div className="col-lg-8 col-7 position-relative">
                 <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-01.jpg">
-                <img src="/images/Gallery-01.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" />
+
+                <picture>
+                <source type='image/webp' srcSet='/images/Gallery-01.webp' />
+                <source type='image/jpeg' srcSet='/images/Gallery-01.jpg' />
+                <img src="/images/Gallery-01.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-01" />
+                </picture>
+
+
                 </a>
                 
                 </div>
                 </div>
                 <div className="col-lg-4 col-5 position-relative">
                     <div class="position-relative img-hover w-100 overflow-h">
+
                 <a href="/images/Gallery-02.jpg">
-                <img src="/images/Gallery-02.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" />
+                <picture>
+                <source type='image/webp' srcSet='/images/Gallery-02.webp' />
+                <source type='image/jpeg' srcSet='/images/Gallery-02.jpg' />
+                <img src="/images/Gallery-02.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-02" />
+                </picture>
                 </a>
+
                 
                 </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-6 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-03.jpg">
-                <img src="/images/Gallery-03.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" />
+                <picture>
+                <source type='image/webp' srcSet='/images/Gallery-03.webp' />
+                <source type='image/jpeg' srcSet='/images/Gallery-03.jpg' />
+                <img src="/images/Gallery-03.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-03" />
+                </picture>
                 </a>
                 
                 </div>
@@ -62,7 +79,11 @@ function Home() {
                 <div className="col-lg-4 col-md-6 col-6 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-04.jpg">
-                <img src="/images/Gallery-04.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" />
+                <picture>
+                <source type='image/webp' srcSet='/images/Gallery-04.webp' />
+                <source type='image/jpeg' srcSet='/images/Gallery-04.jpg' />
+                <img src="/images/Gallery-04.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-04" />
+                </picture>
                 </a>
                 
                 </div>
@@ -70,7 +91,11 @@ function Home() {
                 <div className="col-lg-4 col-12 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-05.jpg">
-                <img src="/images/Gallery-05.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" />
+                <picture>
+                <source type='image/webp' srcSet='/images/Gallery-05.webp' />
+                <source type='image/jpeg' srcSet='/images/Gallery-05.jpg' />
+                <img src="/images/Gallery-05.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-05" />
+                </picture>
                 </a>
                 
                 </div>
