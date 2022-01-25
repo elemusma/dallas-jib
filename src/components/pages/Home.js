@@ -17,11 +17,12 @@ function Home() {
     <>
     
     <Helmet>
-    <meta charSet="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Highest Quality Standards in Production Value | Dallas Jib</title>
     {/* <link rel="canonical" href="http://mysite.com/example" /> */}
-    <meta name="description" content="Helmet application" />
+    <meta name="description" content="Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects." />
     <meta property="og:image" content="/images/Production-Value.jpg" />
+    <meta name="keywords" content="production value"></meta>
     </Helmet>
     <HeroSection />
     <section className="position-relative">
