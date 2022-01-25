@@ -3,6 +3,10 @@
   --accent-blue:#0a1c34;
   --faded-gold:#edeade;
   --blue-light:#4694a7;
+  --aspira-black:'aspirablack';
+  --aspira-bold:'aspirabold';
+  --proxima-regular:'proxima_novaregular';
+  --proxima-bold:'proxima_novabold';
 }
 .bg-accent{
   background:var(--accent);
@@ -22,6 +26,60 @@ svg path{
 svg:hover path {
   fill: var(--accent);
 }
+.overflow-h{
+  overflow: hidden;
+}
+/* start of fonts */
+html,body,a,p,span,strong,ul,li,div,em{
+  font-family:var(--proxima-regular);
+}
+.bold{
+  font-family:var(--proxima-bold);
+}
 .text-accent-blue-light{
   color:var(--blue-light);
 }
+.text-accent{
+  color:var(--accent-blue);
+}
+.aspira-black{
+  font-family:var(--aspira-black);
+}
+.aspira-bold{
+  font-family:var(--aspira-bold);
+}
+/* end of fonts */
+
+
+/* start of images */
+.img-hover, .img-hover img{
+  transition:all .25s ease-in-out;
+  position:relative;
+}
+.img-hover:after {
+  content: "+";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #b5a46d;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  opacity:0;
+  transition: all .25s ease-in-out;
+  pointer-events:none;
+}
+.img-hover:hover img, img.img-hover:hover{
+  transform:scale(1.1);
+}
+.img-hover:hover:after{
+  opacity:1;
+}
+/* end of images */

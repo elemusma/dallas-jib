@@ -24,12 +24,15 @@ return (
             </Link>
             </div>
         <div className="row align-items-center">
-            <div className="col-md-4">
-                <h2 className="h6 text-accent mb-0">HIGHEST QUALITY STANDARDS IN</h2>
-                <h1>PRODUCT<br></br>VALUE</h1>
+            <div className="col-md-9">
+                <h2 className="mb-0 aspira-black h3">HIGHEST QUALITY STANDARDS IN</h2>
+                <h1 className="aspira-black" style={{fontSize:"70px",lineHeight:"1"}}>PRODUCTION<br></br>VALUE</h1>
                 <div className="bg-accent mb-4" style={{height:"4px",width:"200px"}}></div>
+                <div className="col-md-6">
                 <p className=""><strong>Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects.</strong></p>
                 <Link to='/about/' className="btn btn-main">LEARN MORE</Link>
+                </div>
+
             </div>
             
         </div>
