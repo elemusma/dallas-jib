@@ -21,7 +21,7 @@ function Home() {
         <div className="container">
             <div className="row bg-faded-gold pt-5 pb-5 px-lg-5">
                 <div className="col-12 text-center pb-5">
-                    <h2>Recent Gallery Testing changes getting pushed</h2>
+                    <h2>Recent Gallery Testing changes getting pushed, testing one more time</h2>
                 </div>
 
 <div className="row px-lg-5">
