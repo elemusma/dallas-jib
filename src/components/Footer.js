@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
 function Footer() {
 return (
@@ -7,15 +8,16 @@ return (
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-md-9 text-center">
-                <picture>
+                {/* <picture>
                 <source type='image/webp' srcSet='/images/DallasJib-Logo.webp' />
-                <source type='image/png' srcSet='/images/DallasJib-Logo.png' />
-                <img src="/images/DallasJib-Logo.png" alt="Dallas Jib logo" width="400px" height="auto" />
-                </picture>
+                <source type='image/png' srcSet='/images/DallasJib-Logo.png' /> */}
+                {/* <img src="/images/DallasJib-Logo.png" alt="Dallas Jib logo" width="400px" height="auto" style={{maxWidth:"100%"}} /> */}
+                <Logo />
+                {/* </picture> */}
                 </div>
                 
                 <div className="col-md-9 text-center pt-5">
-                <ul className="nav-menu active d-flex justify-content-center align-items-center list-unstyled mb-0">
+                <ul className="nav-menu active d-flex justify-content-center align-items-center list-unstyled flex-wrap mb-0">
                     <li className="nav-item">
                         <Link to='/' className='nav-links'>
                             Home
@@ -31,6 +33,11 @@ return (
                             Gallery
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to='/contact/' className='nav-links'>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
                 </div>
                 <div className="col-md-9 text-center pt-5">
@@ -40,7 +47,7 @@ return (
                 </div>
                 <div className="col-md-9 text-center pt-5">
                     <p className="mb-0">Copyright &copy; 2022 Dallas Jib - All Rights Reserved.</p>
-                    <div className="d-flex justify-content-center align-items-center">
+                    <div className="d-flex justify-content-center align-items-center flex-wrap">
                     <Link to={"mailto:rick@rickdodd.net"} target="_blank" className="text-accent-blue-light"><em><strong>rick@rickdodd.net</strong></em></Link> <div className="bg-accent mx-3" style={{width:"1px",height:"15px"}}></div>
                     <p className="mb-0 pe-2">Phone: </p>
                     <Link to={"tel:+1720.903.0048"} target="_blank" className="text-white text-decoration-none"><strong>720.903.0048</strong></Link> <div className="bg-accent mx-3" style={{width:"1px",height:"15px"}}></div>
@@ -48,12 +55,12 @@ return (
                     </div>
                 </div>
                 <div className="col-md-9 text-center pt-5">
-                    <p className="mb-0 small">Created by</p>
-                    <picture>
-                    <source type='image/webp' srcSet='/images/created-by-inside-out-creative.webp' />
-                    <source type='image/png' srcSet='/images/created-by-inside-out-creative.png' />
-                    <img src="/images/created-by-inside-out-creative.png" alt="" width="175px" height="auto" />
-                    </picture>
+                <p className="mb-0 small">Created by</p>
+                {/* <picture>
+                <source type='image/webp' srcSet='/images/created-by-inside-out-creative.webp' />
+                <source type='image/png' srcSet='/images/created-by-inside-out-creative.png' /> */}
+                <img src="/images/created-by-inside-out-creative.png" alt="" width="175px" height="auto" />
+                {/* </picture> */}
                 </div>
             </div>
         </div>

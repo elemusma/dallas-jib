@@ -1,52 +1,83 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './HeroSection.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
-function HeroSection() {
+function HeroSection(props) {
 
+    const [desktopShow, setDesktopShow] = useState(true);
+    const [mobileShow, setMobileShow] = useState(true);
+
+    const showDesktop = () => {
+        if(window.innerWidth <=992) {
+            setDesktopShow(false);
+        } else {
+            setDesktopShow(true);
+        }
+    };
+
+    useEffect(() => {
+        showDesktop();
+    }, []);
+    window.addEventListener('resize', showDesktop);
+
+    const showMobile = () => {
+        if(window.innerWidth <=991) {
+            setMobileShow(true);
+        } else {
+            setMobileShow(false);
+        }
+    };
+
+    useEffect(() => {
+        showMobile();
+    }, []);
+    window.addEventListener('resize', showMobile);
 
 return (
     <>
-    <section className='hero position-relative text-white pt-2 pb-5 bg-attachment' style={{background:"url(/images/Production-Value.jpg)",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
+    <section className='hero position-relative pt-2 pb-5 bg-attachment' style={{background:"url(/images/Production-Value.jpg)",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
 
         <div className="position-absolute w-100 h-100 bg-black" style={{mixBlendMode:"multiply",top:"0",left:"0",opacity:".5"}}></div>
 
         <div className="position-absolute triangle" style={{}}></div>
 
-        <picture>
-        <source type='image/webp' srcSet='/images/Celebrating-30-years-delivering-promises.webp' />
-        <source type='image/png' srcSet='/images/Celebrating-30-years-delivering-promises.png' />
         <img src="/images/Celebrating-30-years-delivering-promises.png" alt="Celebrating 30 years of delivering promises" className="logo-triangle position-absolute" />
-        </picture>
 
 
         <div className="container position-relative">
+            {desktopShow &&
             <div className="row" style={{paddingBottom:"325px"}}>
-        <Link to="/" className="col-10 navbar-logo">
-        <picture>
-        <source type='image/webp' srcSet='/images/DallasJib-Logo.webp' />
-        <source type='image/png' srcSet='/images/DallasJib-Logo.png' />
-        <img src="/images/DallasJib-Logo.png" alt="Dallas Jib logo" width="400px" height="auto" />
-        </picture>
-
-                {/* <img src="/images/DallasJib-Logo.png" width="400px" height="auto" /> */}
-            </Link>
+        <Logo />
             </div>
-        <div className="row align-items-center">
+            }
+
+            {mobileShow &&
+            <div style={{paddingBottom:"250px"}}></div>
+            }
+
+        {props.other == 'regular' ?
+        <div className="row align-items-center text-white">
             <div className="col-md-9">
-                <h2 className="mb-0 aspira-black h3">HIGHEST QUALITY STANDARDS IN</h2>
-                <h1 className="aspira-black" style={{fontSize:"70px",lineHeight:"1"}}>PRODUCTION<br></br>VALUE</h1>
+                {props.pretitle ? 
+                <h2 className="mb-0 aspira-black h3">{props.pretitle}</h2>
+                : ""}
+                {props.title ? 
+                <h1 className="aspira-black" style={{fontSize:"70px",lineHeight:"1"}}>{props.title}</h1>
+                : ""}
                 <div className="bg-accent mb-4" style={{height:"4px",width:"200px"}}></div>
-                <div className="col-md-6">
-                <p className=""><strong>Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects.</strong></p>
-                <Link to='/about/' className="btn btn-main">LEARN MORE</Link>
+                <div className="col-lg-6 col-md-10">
+                <p className=""><strong>{props.text}</strong></p>
+                {props.button ? 
+                props.button
+                : ""}
                 </div>
-
             </div>
-            
         </div>
+        : props.other}
+
         </div>
     </section>
     </>

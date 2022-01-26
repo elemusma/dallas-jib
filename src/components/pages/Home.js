@@ -7,6 +7,7 @@ import Footer from '../Footer';
 import {Helmet} from "react-helmet";
 // import { SRLWrapper } from "simple-react-lightbox";
 import { SRLWrapper } from "simpler-react-lightbox";
+import { Link } from 'react-router-dom';
 
 // import SimplerReactLightbox from 'simpler-react-lightbox'
 
@@ -24,9 +25,15 @@ function Home() {
     <meta property="og:image" content="/images/Production-Value.jpg" />
     <meta name="keywords" content="production value"></meta>
     </Helmet>
-    <HeroSection />
+    <HeroSection 
+    other = 'regular'
+    pretitle = 'HIGHEST QUALITY STANDARDS IN'
+    title = {<>PRODUCTION <br></br> VALUE</>}
+    text = 'Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects.'
+    button = {<><Link to='/about/' className="btn btn-main">LEARN MORE</Link></>}
+    />
     <section className="position-relative">
-        <div className="position-absolute h-100 w-100" style={{background:"url(/images/Background-dots.png)",backgroundAttachment:"fixed",backgroundSize:"cover",mixBlendMode:"luminosity",opacity:".8",top:"0",left:"0",pointerEvents:"none"}}></div>
+        <div className="position-absolute h-100 w-100 bg-attachment" style={{background:"url(/images/Background-dots.png)",backgroundAttachment:"fixed",backgroundSize:"cover",mixBlendMode:"luminosity",opacity:".8",top:"0",left:"0",pointerEvents:"none"}}></div>
         <div className="container">
             <div className="row bg-faded-gold px-lg-5" style={{padding:"100px 0"}}>
                 <div className="col-12 text-center pb-3">
@@ -39,11 +46,11 @@ function Home() {
                 <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-01.jpg">
 
-                <picture>
+                {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-01.webp' />
-                <source type='image/jpeg' srcSet='/images/Gallery-01.jpg' />
+                <source type='image/jpeg' srcSet='/images/Gallery-01.jpg' /> */}
                 <img src="/images/Gallery-01.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-01" />
-                </picture>
+                {/* </picture> */}
 
 
                 </a>
@@ -54,11 +61,11 @@ function Home() {
                     <div class="position-relative img-hover w-100 overflow-h">
 
                 <a href="/images/Gallery-02.jpg">
-                <picture>
+                {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-02.webp' />
-                <source type='image/jpeg' srcSet='/images/Gallery-02.jpg' />
+                <source type='image/jpeg' srcSet='/images/Gallery-02.jpg' /> */}
                 <img src="/images/Gallery-02.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-02" />
-                </picture>
+                {/* </picture> */}
                 </a>
 
                 
@@ -67,11 +74,11 @@ function Home() {
                 <div className="col-lg-4 col-md-6 col-6 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-03.jpg">
-                <picture>
+                {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-03.webp' />
-                <source type='image/jpeg' srcSet='/images/Gallery-03.jpg' />
+                <source type='image/jpeg' srcSet='/images/Gallery-03.jpg' /> */}
                 <img src="/images/Gallery-03.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-03" />
-                </picture>
+                {/* </picture> */}
                 </a>
                 
                 </div>
@@ -79,11 +86,11 @@ function Home() {
                 <div className="col-lg-4 col-md-6 col-6 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-04.jpg">
-                <picture>
+                {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-04.webp' />
-                <source type='image/jpeg' srcSet='/images/Gallery-04.jpg' />
+                <source type='image/jpeg' srcSet='/images/Gallery-04.jpg' /> */}
                 <img src="/images/Gallery-04.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-04" />
-                </picture>
+                {/* </picture> */}
                 </a>
                 
                 </div>
@@ -91,11 +98,11 @@ function Home() {
                 <div className="col-lg-4 col-12 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-05.jpg">
-                <picture>
+                {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-05.webp' />
-                <source type='image/jpeg' srcSet='/images/Gallery-05.jpg' />
+                <source type='image/jpeg' srcSet='/images/Gallery-05.jpg' /> */}
                 <img src="/images/Gallery-05.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-05" />
-                </picture>
+                {/* </picture> */}
                 </a>
                 
                 </div>
