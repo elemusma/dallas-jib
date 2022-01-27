@@ -1,0 +1,7 @@
+.image-intro-gallery {
+    height:300px;
+    object-fit: cover;
+}
+.image-intro-gallery:nth-child(1),.image-intro-gallery:nth-child(2) {
+    height: 500px;
+}
