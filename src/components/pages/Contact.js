@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../Footer';
 import {Helmet} from "react-helmet";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import HeroSection from '../HeroSection';
 
 function Contact() {

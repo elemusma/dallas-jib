@@ -58,11 +58,11 @@ return (
             <div style={{paddingBottom:"250px"}}></div>
             }
 
-        {props.other == 'regular' ?
+        {props.other === 'regular' ?
         <div className="row align-items-center text-white">
             <div className="col-md-9">
                 {props.pretitle ? 
-                <h2 className="mb-0 aspira-black h3">{props.pretitle}</h2>
+                <h2 className="mb-0 aspira-black h3 pretitle">{props.pretitle}</h2>
                 : ""}
                 {props.title ? 
                 <h1 className="aspira-black" style={{fontSize:"70px",lineHeight:"1"}}>{props.title}</h1>

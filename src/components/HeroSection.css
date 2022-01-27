@@ -13,3 +13,8 @@ img.logo-triangle {
     top: 20px;
     right: 20px;
 }
+@media screen and (max-width:767px){
+    .pretitle {
+        font-size: 20px;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Logo from './Logo';
@@ -13,7 +13,7 @@ function Navbar () {
 
 
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    // const closeMobileMenu = () => setClick(false);
 
     const showDesktop = () => {
         if(window.innerWidth <=992) {
@@ -46,9 +46,9 @@ function Navbar () {
     <nav className="nav">
         <div className="secondary bg-black w-100 py-1">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center justify-content-lg-start justify-content-between">
                     {mobileShow && 
-                    <div className="col-8">
+                    <div className="col-7">
                         <Logo />
                     </div>
                     }
