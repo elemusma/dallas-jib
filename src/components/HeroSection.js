@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 // import { Button } from './Button';
 import './HeroSection.css';
+import './Button.css';
 // import { Link } from 'react-router-dom';
 import Logo from './Logo';
 

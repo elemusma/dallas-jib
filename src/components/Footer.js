@@ -8,12 +8,7 @@ return (
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-md-9 text-center">
-                {/* <picture>
-                <source type='image/webp' srcSet='/images/DallasJib-Logo.webp' />
-                <source type='image/png' srcSet='/images/DallasJib-Logo.png' /> */}
-                {/* <img src="/images/DallasJib-Logo.png" alt="Dallas Jib logo" width="400px" height="auto" style={{maxWidth:"100%"}} /> */}
                 <Logo />
-                {/* </picture> */}
                 </div>
                 
                 <div className="col-md-9 text-center pt-5">
@@ -56,11 +51,9 @@ return (
                 </div>
                 <div className="col-md-9 text-center pt-5">
                 <p className="mb-0 small">Created by</p>
-                {/* <picture>
-                <source type='image/webp' srcSet='/images/created-by-inside-out-creative.webp' />
-                <source type='image/png' srcSet='/images/created-by-inside-out-creative.png' /> */}
+                <Link to={"//insideoutcreative.io/"} target="_blank">
                 <img src="/images/created-by-inside-out-creative.png" alt="" width="175px" height="auto" />
-                {/* </picture> */}
+                </Link>
                 </div>
             </div>
         </div>

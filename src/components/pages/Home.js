@@ -8,9 +8,9 @@ import {Helmet} from "react-helmet";
 // import { SRLWrapper } from "simple-react-lightbox";
 import { SRLWrapper } from "simpler-react-lightbox";
 import { Link } from 'react-router-dom';
-import Image from 'react-image-webp';
+// import Image from 'react-image-webp';
 // import ImageCustom from '../ImageCustom';
-import './Home.css';
+// import './Home.css';
 // import {isWebpSupported} from 'react-image-webp/dist/utils';
 // import imagemin from 'imagemin';
 // import imageminWebp from 'imagemin-webp';
@@ -54,15 +54,7 @@ function Home() {
                 <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-01.jpg">
 
-                {/* <img src="/images/Gallery-01.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-01" /> */}
-                {/* <ImageCustom /> */}
-                <Image
-                src={require('../images/Gallery-01.jpg')}
-                webp={require('../images/Gallery-01.webp')}
-                className={'w-100 image-intro-gallery'}
-                style={[],[]}
-                alt={'Gallery-01'}
-                />
+                <img src="/images/Gallery-01.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-01" />
                 
 
                 </a>
@@ -76,14 +68,7 @@ function Home() {
                 {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-02.webp' />
                 <source type='image/jpeg' srcSet='/images/Gallery-02.jpg' /> */}
-                {/* <img src="/images/Gallery-02.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-02" /> */}
-                <Image
-                src={require('../images/Gallery-02.jpg')}
-                webp={require('../images/Gallery-02.webp')}
-                className={'w-100 image-intro-gallery'}
-                style={[],[]}
-                alt={'Gallery-02'}
-                />
+                <img src="/images/Gallery-02.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-02" />
                 {/* </picture> */}
                 </a>
 
@@ -96,14 +81,7 @@ function Home() {
                 {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-03.webp' />
                 <source type='image/jpeg' srcSet='/images/Gallery-03.jpg' /> */}
-                {/* <img src="/images/Gallery-03.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-03" /> */}
-                <Image
-                src={require('../images/Gallery-03.jpg')}
-                webp={require('../images/Gallery-03.webp')}
-                className={'w-100 image-intro-gallery'}
-                style={[],[]}
-                alt={'Gallery-03'}
-                />
+                <img src="/images/Gallery-03.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-03" />
                 {/* </picture> */}
                 </a>
                 
@@ -115,14 +93,7 @@ function Home() {
                 {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-04.webp' />
                 <source type='image/jpeg' srcSet='/images/Gallery-04.jpg' /> */}
-                {/* <img src="/images/Gallery-04.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-04" /> */}
-                <Image
-                src={require('../images/Gallery-04.jpg')}
-                webp={require('../images/Gallery-04.webp')}
-                className={'w-100 image-intro-gallery'}
-                style={[],[]}
-                alt={'Gallery-04'}
-                />
+                <img src="/images/Gallery-04.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-04" />
                 {/* </picture> */}
                 </a>
                 
@@ -134,14 +105,7 @@ function Home() {
                 {/* <picture>
                 <source type='image/webp' srcSet='/images/Gallery-05.webp' />
                 <source type='image/jpeg' srcSet='/images/Gallery-05.jpg' /> */}
-                {/* <img src="/images/Gallery-05.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-05" /> */}
-                <Image
-                src={require('../images/Gallery-05.jpg')}
-                webp={require('../images/Gallery-05.webp')}
-                className={'w-100 image-intro-gallery'}
-                style={[],[]}
-                alt={'Gallery-05'}
-                />
+                <img src="/images/Gallery-05.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Gallery-05" />
                 {/* </picture> */}
                 </a>
                 
