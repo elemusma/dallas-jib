@@ -3,9 +3,15 @@ import Footer from '../Footer';
 import {Helmet} from "react-helmet";
 // import { Link } from 'react-router-dom';
 import HeroSection from '../HeroSection';
+// import Form from '../Form';
+
+
 
 function Contact() {
     return (
+
+ 
+
 <>
 
 <Helmet>
@@ -29,6 +35,12 @@ function Contact() {
 <div class="position-relative text-center">
 <h2>Contact us with any questions!</h2>
 <p>contact form will go here. Figure out how to do react form.</p>
+
+{/* <Form /> */}
+<iframe src="https://insideoutfocus.formstack.com/forms/dallas_jib" title="Dallas Jib" width="600" height="400"></iframe>
+
+
+
 </div>
 </div>
 </div>
@@ -36,11 +48,11 @@ function Contact() {
     </>}
     />
 <Footer />
-
-
-
 </>
+
+
     );
+
 }
 
 export default Contact;
