@@ -3,7 +3,7 @@ import Footer from '../Footer';
 import {Helmet} from "react-helmet";
 // import { Link } from 'react-router-dom';
 import HeroSection from '../HeroSection';
-// import Form from '../Form';
+import Form from '../Form';
 
 
 
@@ -28,16 +28,15 @@ function Contact() {
     // text = 'Browse through all our projects.'
     // button = {<><Link to='/Gallery/' className="btn btn-main">LEARN MORE</Link></>}
     other = {<>
-    <div className="row justify-content-center" style={{paddingBottom:"175px"}}>
+    <div className="row justify-content-center" style={{paddingBottom:"125px",marginTop:"-175px"}}>
     <div class="col-md-9 pt-5 pb-5 p-4 position-relative">
 <div class="content">
 <div class="position-absolute bg-white w-100 h-100" style={{opacity:"0.75",top:"0",left:"0"}}></div>
 <div class="position-relative text-center">
 <h2>Contact us with any questions!</h2>
-<p>contact form will go here. Figure out how to do react form.</p>
 
-{/* <Form /> */}
-<iframe src="https://insideoutfocus.formstack.com/forms/dallas_jib" title="Dallas Jib" width="600" height="400"></iframe>
+<Form />
+{/* <iframe src="https://insideoutfocus.formstack.com/forms/dallas_jib" title="Dallas Jib" width="600" height="400"></iframe> */}
 
 
 

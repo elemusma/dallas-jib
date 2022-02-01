@@ -1,79 +1,73 @@
-import React, { useState } from 'react';
-// import { initializeApp } from "firebase/app";
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import './Form.css';
 
-// const firebaseConfig = {
-//     apiKey: "AIzaSyBCErqMGGdKgw5qBw5s3AqXssEMxpeseR8",
-//     authDomain: "dallas-jib-form.firebaseapp.com",
-//     projectId: "dallas-jib-form",
-//     storageBucket: "dallas-jib-form.appspot.com",
-//     messagingSenderId: "757581317639",
-//     appId: "1:757581317639:web:28bc032980bcc636730ca2"
-//   };
-
-//   const app = initializeApp(firebaseConfig);
-//   const db = app.database.ref();
-
+const Result = () => {
+  return(
+    <>
+    <p>Thank you for your message!</p>
+    </>
+  )
+}
 
 function Form() {
 
-    // const [name, setName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [message, setMessage] = useState("");
+  const form = useRef();
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     console.log(name, email, message);
-    //     console.log(app);
+  const [result, showResult] = useState(false)
 
-    //     db.collection('contacts').add({
-    //         name: name,
-    //         email: email,
-    //         message: message
-    //     })
-    //     .then(() =>{
-    //         alert('Message has been submitted.');
-    //     })
-    //     .catch((error) =>{
-    //         alert(error.message);
-    //     });
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    // };
+    emailjs.sendForm('service_z5epl77', 'template_sisfmyo', form.current, 'user_PA95OTCFbmb8UCahA1z4k')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+      showResult(true);
 
-
+  };
 
   return (
   <>
-  <form action="" className="contact-form" 
-//   onSubmit={handleSubmit}
+  <form action="" className="contact-form text-left" ref={form} 
+  onSubmit={sendEmail}
   >
     <div>
-        <label htmlFor="">Name</label><br></br>
+        {/* <label htmlFor="">Name</label><br></br> */}
         <input 
         type="text" 
         className="name" 
         placeholder='Name'
+        name="fullName"
         // value={name} 
         // onChange={(e) => setName(e.target.value)} 
         />
     </div>
     <div>
-        <label htmlFor="">Email</label><br></br>
-        <input type="email" name="" id="" className='email' 
+        {/* <label htmlFor="">Email</label><br></br> */}
+        <input type="email" name="email" id="" className='email' 
         placeholder='Email'
         // value={email}
         // onChange={(e) => setEmail(e.target.value)}
         />
     </div>
     <div>
-        <label htmlFor="">Message</label><br></br>
-        <textarea name="" id="" cols="30" rows="3" className='message'
+        {/* <label htmlFor="">Message</label><br></br> */}
+        <textarea name="message" id="" cols="30" rows="3" className='message'
         placeholder='Your message...'
         // value={message}
         // onChange={(e) => setMessage(e.target.value)}
         ></textarea>
     </div>
-    <button type="submit" className="bg-accent">Submit</button>
+    <input type="hidden" value={window.location.href} name="form_url" />
+    <button type="submit" className="bg-accent submit text-white bold">Submit</button>
 
+    <div className="row">
+      { result ? <Result /> : null }
+    </div>
 </form>
   </>
     );
