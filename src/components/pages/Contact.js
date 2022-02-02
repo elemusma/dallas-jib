@@ -18,7 +18,10 @@ function Contact() {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Contact Us | Dallas Jib</title>
 <meta name="description" content="720.903.0048 | rick@rickdodd.net. We have 30 years of experience, feel free to reach out to us with any questions." />
-<meta property="og:image" content="/images/Production-Value.jpg" />
+<meta property="og:site_name" content="Dallas Jib" />
+<meta property="og:title" content="Contact Us | Dallas Jib" />
+<meta property="og:description" content="720.903.0048 | rick@rickdodd.net. We have 30 years of experience, feel free to reach out to us with any questions." />
+<meta property="og:image" content="/images/Dallas-Jib-Cameraman-Operator-04.jpg" />
 <meta name="keywords" content="production value"></meta>
 </Helmet>
 

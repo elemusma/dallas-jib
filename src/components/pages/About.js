@@ -10,9 +10,11 @@ function About() {
         <Helmet>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>About | Dallas Jib</title>
-    {/* <link rel="canonical" href="http://mysite.com/example" /> */}
     <meta name="description" content="Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects." />
-    <meta property="og:image" content="/images/Production-Value.jpg" />
+    <meta property="og:site_name" content="Dallas Jib" />
+    <meta property="og:title" content="About | Dallas Jib" />
+    <meta property="og:description" content="Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects." />
+    <meta property="og:image" content="/images/Dallas-Jib-Cameraman-Operator-06.jpg" />
     <meta name="keywords" content="production value"></meta>
     </Helmet>
     <HeroSection 

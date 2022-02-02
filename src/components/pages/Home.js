@@ -5,6 +5,7 @@ import Footer from '../Footer';
 // import Gallery from '../Gallery';
 // import { Link } from 'react-router-dom';
 import {Helmet} from "react-helmet";
+// import MetaTags from 'react-meta-tags';
 // import { SRLWrapper } from "simple-react-lightbox";
 import { SRLWrapper } from "simpler-react-lightbox";
 import { Link } from 'react-router-dom';
@@ -30,6 +31,9 @@ function Home() {
     <title>Highest Quality Standards in Production Value | Dallas Jib</title>
     {/* <link rel="canonical" href="http://mysite.com/example" /> */}
     <meta name="description" content="Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects." />
+    <meta property="og:site_name" content="Dallas Jib" />
+    <meta property="og:title" content="Highest Quality Standards in Production Value | Dallas Jib" />
+    <meta property="og:description" content="Bringing years of experience as a cameraman and jib operator for broadcast and corporate projects has allowed me to bring a wealth of working knowledge and creativity to your projects." />
     <meta property="og:image" content="/images/Production-Value.jpg" />
     <meta name="keywords" content="production value"></meta>
     </Helmet>
