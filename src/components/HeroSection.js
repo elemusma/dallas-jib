@@ -37,9 +37,11 @@ function HeroSection(props) {
     }, []);
     window.addEventListener('resize', showMobile);
 
+    var bgImg = {backgroundImage:'url(' + props.img + ')',backgroundAttachment:"fixed",backgroundSize:"cover"}
+
 return (
     <>
-    <section className='hero position-relative pt-2 pb-5 bg-attachment' style={{background:"url(/images/Production-Value.jpg)",backgroundSize:"cover",backgroundAttachment:"fixed"}}>
+    <section className='hero position-relative pt-2 pb-5 bg-attachment' style={bgImg}>
 
         <div className="position-absolute w-100 h-100 bg-black" style={{mixBlendMode:"multiply",top:"0",left:"0",opacity:".5"}}></div>
 
@@ -80,7 +82,7 @@ return (
         : props.other}
 
         </div>
-    </section>
+        </section>
     </>
 );
 }

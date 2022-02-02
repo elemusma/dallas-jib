@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 // import { Link } from 'react-router-dom';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
+import { SRLWrapper } from "simpler-react-lightbox";
 
 function Gallery() {
     return (
@@ -16,11 +17,25 @@ function Gallery() {
     <meta name="keywords" content="production value"></meta>
     </Helmet>
     <HeroSection 
+    img = '/images/Dallas-Jib-Cameraman-Operator-05.jpg'
     other = 'regular'
     title = {<>Gallery Dallas Jib</>}
     text = 'Browse through all our projects.'
     // button = {<><Link to='/Gallery/' className="btn btn-main">LEARN MORE</Link></>}
     />
+    <section className="pt-5 pb-5">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                <SRLWrapper>
+                <a href="/images/Dallas-Jib-Cameraman-Operator-09.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-09.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </SRLWrapper>
+                </div>
+            </div>
+        </div>
+    </section>
     <Footer />
 </>
     );

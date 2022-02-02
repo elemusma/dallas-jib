@@ -36,30 +36,26 @@ function Form() {
   onSubmit={sendEmail}
   >
     <div>
-        {/* <label htmlFor="">Name</label><br></br> */}
-        <input 
-        type="text" 
-        className="name" 
-        placeholder='Name'
-        name="fullName"
-        // value={name} 
-        // onChange={(e) => setName(e.target.value)} 
+        <input type="text" className="name" placeholder='Name' name="fullName"
         />
     </div>
     <div>
-        {/* <label htmlFor="">Email</label><br></br> */}
+        <input type="tel" className="tel" placeholder='Phone number' name="phone"
+        />
+    </div>
+    <div>
         <input type="email" name="email" id="" className='email' 
         placeholder='Email'
-        // value={email}
-        // onChange={(e) => setEmail(e.target.value)}
         />
     </div>
     <div>
-        {/* <label htmlFor="">Message</label><br></br> */}
+        <input type="text" name="company" id="" className='company' 
+        placeholder='Company Name'
+        />
+    </div>
+    <div>
         <textarea name="message" id="" cols="30" rows="3" className='message'
         placeholder='Your message...'
-        // value={message}
-        // onChange={(e) => setMessage(e.target.value)}
         ></textarea>
     </div>
     <input type="hidden" value={window.location.href} name="form_url" />

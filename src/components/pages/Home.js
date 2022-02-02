@@ -34,6 +34,7 @@ function Home() {
     <meta name="keywords" content="production value"></meta>
     </Helmet>
     <HeroSection 
+    img = '/images/Production-Value.jpg'
     other = 'regular'
     pretitle = 'HIGHEST QUALITY STANDARDS IN'
     title = {<>PRODUCTION <br></br> VALUE</>}
