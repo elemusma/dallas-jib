@@ -6,11 +6,13 @@ import About from './components/pages/About';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Helmet, { HelmetProvider } from 'react-helmet-async';
 // import logo from './logo.svg';
 
 function App() {
   return (
     <>
+    <HelmetProvider>
     <Router>  
     <Navbar />
     <Routes>
@@ -20,6 +22,7 @@ function App() {
       <Route exact path='/contact/' element={<Contact />} />
     </Routes>
     </Router>
+    </HelmetProvider>
     </>
   );
 }
