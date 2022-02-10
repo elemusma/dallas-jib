@@ -8,7 +8,7 @@ import { SRLWrapper } from "simpler-react-lightbox";
 function Gallery() {
     return (
 <>
-        <Helmet>
+    <Helmet>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Gallery | Dallas Jib</title>
     {/* <link rel="canonical" href="http://mysite.com/example" /> */}
@@ -28,15 +28,90 @@ function Gallery() {
     />
     <section className="pt-5 pb-5">
         <div className="container">
-            <div className="row">
-                <div className="col-12">
                 <SRLWrapper>
+            <div className="row">
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
                 <a href="/images/Dallas-Jib-Cameraman-Operator-09.jpg">
-                <img src="/images/Dallas-Jib-Cameraman-Operator-09.jpg" alt="" width="100%" height="500px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                <img src="/images/Dallas-Jib-Cameraman-Operator-09.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
                 </a>
-                </SRLWrapper>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-01.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-01.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-02.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-02.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-03.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-03.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-04.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-04.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-05.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-05.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-06.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-06.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-07.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-07.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-08.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-08.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-09.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-09.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-10.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-10.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-11.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-11.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-12.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-12.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-13.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-13.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-14.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-14.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
+                </div>
+                <div className="col-lg-3 col-md-4 col-6 pb-4">
+                <a href="/images/Dallas-Jib-Cameraman-Operator-Gallery-15.jpg">
+                <img src="/images/Dallas-Jib-Cameraman-Operator-Gallery-15.jpg" alt="" width="100%" height="300px" style={{objectFit:"cover"}} className="w-100 image-intro-gallery" alt="Aviation Cameraman" />
+                </a>
                 </div>
             </div>
+                </SRLWrapper>
         </div>
     </section>
     <Footer />
