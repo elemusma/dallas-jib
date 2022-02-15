@@ -80,6 +80,9 @@ function Navbar () {
                             Contact
                         </Link>
                     </li>
+                    <li className="nav-item">
+                    <a href="tel:+12145326820" className="nav-links">214-532-6820</a> 
+                    </li>
                 </ul>
                 }
                 {mobileShow &&

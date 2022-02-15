@@ -20,7 +20,7 @@ function About() {
     <HeroSection 
     other = 'regular'
     title = {<>About Dallas Jib</>}
-    text = 'Born and raised in Colorful Colorado.'
+    text = 'Born and Raised in Texas'
     img = '/images/Dallas-Jib-Cameraman-Operator-06.jpg'
     // button = {<><Link to='/about/' className="btn btn-main">LEARN MORE</Link></>}
     />
@@ -41,7 +41,7 @@ function About() {
             <div className="row">
                 <div className="col-md-9 text-white">
                     <h2>Increased production value</h2>
-                    <p className="h4">With nearly twenty years as a jib operator, I realize how a seasoned jib operator can increase production value in many situations. I have worked concerts to live shots with ABC and NBC as a jib operator. Working with a variety of clients around the globe and in multiple countries with unusual demands ... where it is important to get the “shot” first time.</p>
+                    <p className="h4">With over 20 years of experience as a jib operator, I realize how a seasoned jib operator can increase production value in many situations. I have worked concerts to live shots with ABC and NBC as a jib operator. I have worked with a variety of clients around the globe and in multiple countries.</p>
                 </div>
             </div>
         </div>
@@ -63,6 +63,7 @@ function About() {
             <div className="row">
                 <div className="col-md-9 text-white">
                 <h2>Credits</h2>
+                <p className="h4">With over 20 years of experience as a jib operator, I realize how a seasoned jib operator can increase production value in many situations.</p>
 
 
                 <ul>

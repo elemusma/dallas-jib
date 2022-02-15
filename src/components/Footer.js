@@ -44,7 +44,7 @@ return (
                     <p className="mb-0">Copyright &copy; 2022 Dallas Jib - All Rights Reserved.</p>
                     <div className="d-flex justify-content-center align-items-center flex-wrap">
                     {/* <Link to={"mailto:rick@rickdodd.net"} target="_blank" className="text-accent-blue-light"><em><strong>rick@rickdodd.net</strong></em></Link>  */}
-                    <a href="mailto:rick@rickdodd.net" target="_blank" className="text-accent-blue-light"><em><strong>rick@rickdodd.net</strong></em></a> 
+                    <a href="mailto:rick@dallasjib.com" target="_blank" className="text-accent-blue-light"><em><strong>rick@dallasjib.com</strong></em></a> 
                     <div className="bg-accent mx-3" style={{width:"1px",height:"15px"}}></div>
                     <p className="mb-0 pe-2">Phone: </p>
                     {/* <Link to="tel:+12145326820" target="_blank" className="text-white text-decoration-none"><strong>214-532-6820</strong></Link>  */}
