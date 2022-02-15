@@ -37,16 +37,16 @@ function Form() {
   >
     <div>
         <input type="text" className="name" placeholder='Name' name="fullName"
-        />
+        required />
     </div>
     <div>
         <input type="tel" className="tel" placeholder='Phone number' name="phone"
-        />
+        required />
     </div>
     <div>
         <input type="email" name="email" id="" className='email' 
         placeholder='Email'
-        />
+        required />
     </div>
     <div>
         <input type="text" name="company" id="" className='company' 
