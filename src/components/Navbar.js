@@ -98,7 +98,7 @@ function Navbar () {
                 }
                 <div onClick={handleClick} className={click ? 'nav-overlay active' : 'nav-overlay'}></div>
                 <div className={click ? 'col-lg-6 col-md-8 col-10 bg-accent-blue mobile-menu active text-start' : 'col-lg-6 col-md-8 col-10 bg-accent-blue mobile-menu closed text-start'}>
-                <div className="pt-5 ps-5 text-start">
+                <div className="pt-5 ps-5 pe-5 text-start">
                     <div className="close text-right text-end me-5 h1 text-white" onClick={handleClick}>X</div>
                     <div className="pb-5">
                         <div className="d-inline-block" onClick={handleClick}>
@@ -137,7 +137,7 @@ function Navbar () {
                 </div>
                 </div>
                     </div>
-                    <div className="col-md-3" style={{textAlign:"right"}}>
+                    <div className="col-md-3 d-flex justify-content-center justify-content-md-end" style={{textAlign:"right"}}>
                     <a href="tel:+12145326820" className="text-white h2 bold">214-532-6820</a> 
                     </div>
                 </div>

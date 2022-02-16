@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 // import { Link } from 'react-router-dom';
 import HeroSection from '../HeroSection';
 import Form from '../Form';
-
+import './Contact.css';
 
 
 function Contact() {
@@ -32,7 +32,7 @@ function Contact() {
     // button = {<><Link to='/Gallery/' className="btn btn-main">LEARN MORE</Link></>}
     img = '/images/Dallas-Jib-Cameraman-Operator-04.jpg'
     other = {<>
-    <div className="row" style={{paddingBottom:"125px",marginTop:"-175px"}}>
+    <div className="row contact" style={{paddingBottom:"125px",marginTop:"-175px"}}>
     <div class="col-md-4 pt-5 pb-5 p-4 position-relative">
 <div class="content">
 <div class="position-absolute bg-white w-100 h-100" style={{opacity:"0.75",top:"0",left:"0"}}></div>
