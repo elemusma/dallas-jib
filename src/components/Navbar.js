@@ -57,7 +57,7 @@ function Navbar () {
                     <svg xmlns="http://www.w3.org/2000/svg" style={{width:"25px",height:"auto"}} viewBox="0 0 448.1 512"><path fill="white" d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z"/></svg>
                     </Link>
                     </div>
-                    <div className="col-lg-10 col-3 text-center text-lg-start">
+                    <div className="col-lg-8 col-3 text-center text-lg-start">
                     {desktopShow &&
                     <ul className="nav-menu d-flex justify-content-start align-items-center list-unstyled mb-0">
                     <li className="nav-item">
@@ -80,9 +80,9 @@ function Navbar () {
                             Contact
                         </Link>
                     </li>
-                    <li className="nav-item">
-                    <a href="tel:+12145326820" className="nav-links">214-532-6820</a> 
-                    </li>
+                    {/* <li className="nav-item">
+                    
+                    </li> */}
                 </ul>
                 }
                 {mobileShow &&
@@ -136,6 +136,9 @@ function Navbar () {
 
                 </div>
                 </div>
+                    </div>
+                    <div className="col-md-3" style={{textAlign:"right"}}>
+                    <a href="tel:+12145326820" className="text-white h2 bold">214-532-6820</a> 
                     </div>
                 </div>
             </div>

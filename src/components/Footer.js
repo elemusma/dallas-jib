@@ -49,8 +49,8 @@ return (
                     <p className="mb-0 pe-2">Phone: </p>
                     {/* <Link to="tel:+12145326820" target="_blank" className="text-white text-decoration-none"><strong>214-532-6820</strong></Link>  */}
                     <a href="tel:+12145326820" className="text-white text-decoration-none"><strong>214-532-6820</strong></a> 
-                    <div className="bg-accent mx-3" style={{width:"1px",height:"15px"}}></div>
-                    <Link to={"#"} target="_blank" className="text-white text-decoration-none">Privacy Policy</Link> <span className="px-1"> / </span> <Link to={"#"} target="_blank" className="text-white text-decoration-none">Disclaimer</Link>
+                    {/* <div className="bg-accent mx-3" style={{width:"1px",height:"15px"}}></div> */}
+                    {/* <Link to={"#"} target="_blank" className="text-white text-decoration-none">Privacy Policy</Link> <span className="px-1"> / </span> <Link to={"#"} target="_blank" className="text-white text-decoration-none">Disclaimer</Link> */}
                     </div>
                 </div>
                 <div className="col-md-9 text-center pt-5">

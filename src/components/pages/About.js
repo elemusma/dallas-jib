@@ -75,7 +75,7 @@ function About() {
  	<li>Movie “Fissure” exteriors</li>
  	<li>Studio shoots for local producers, Music videos, live broadcasts</li>
  	<li>“New Kids on the Block” Tour, - Dallas, TX</li>
- 	<li>Over 17 years as a Jib Owner/Operator</li>
+ 	<li>Over 20 years as a Jib Owner/Operator</li>
  	<li>Israel month long documentary on location</li>
  	<li>Years of live broadcasts with Jibs</li>
  	<li>Rap Music video with Red Camera independent producer</li>
