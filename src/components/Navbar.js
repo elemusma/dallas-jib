@@ -138,7 +138,10 @@ function Navbar () {
                 </div>
                     </div>
                     <div className="col-md-3 d-flex justify-content-center justify-content-md-end" style={{textAlign:"right"}}>
+                        <div>
                     <a href="tel:+12145326820" className="text-white h2 bold">214-532-6820</a> 
+                    <span className="d-block text-center text-white">Rick Dodd</span>
+                        </div>
                     </div>
                 </div>
             </div>
