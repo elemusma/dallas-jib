@@ -55,7 +55,7 @@ function Home() {
 
                 <SRLWrapper>
                 <div className="row px-lg-5">
-                <div className="col-lg-8 col-7 position-relative">
+                <div className="col-lg-8 col-md-6 position-relative">
                 <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-01.jpg">
 
@@ -66,7 +66,7 @@ function Home() {
                 
                 </div>
                 </div>
-                <div className="col-lg-4 col-5 position-relative">
+                <div className="col-lg-4 col-md-6 position-relative pt-md-0 pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
 
                 <a href="/images/Gallery-02.jpg">
@@ -80,7 +80,7 @@ function Home() {
                 
                 </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-6 position-relative pt-3">
+                <div className="col-lg-4 col-md-6 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-03.jpg">
                 {/* <picture>
@@ -92,7 +92,7 @@ function Home() {
                 
                 </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-6 position-relative pt-3">
+                <div className="col-lg-4 col-md-6 position-relative pt-3">
                     <div class="position-relative img-hover w-100 overflow-h">
                 <a href="/images/Gallery-04.jpg">
                 {/* <picture>

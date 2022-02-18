@@ -127,8 +127,8 @@ function Navbar () {
                         </Link>
                     </li>
                 </ul>
-                <Link to={"mailto:rick@rickdodd.net"} target="_blank" className="text-accent-blue-light d-block"><em><strong>rick@rickdodd.net</strong></em></Link>
-                <Link to={"tel:+1720.903.0048"} target="_blank" className="text-accent-blue-light text-decoration-none d-block"><strong>720.903.0048</strong></Link>
+                <Link to={"mailto:rick@dallasjib.com"} target="_blank" className="text-accent-blue-light d-block"><em><strong>rick@dallasjib.com</strong></em></Link>
+                <Link to={"tel:+1214-532-6820"} target="_blank" className="text-accent-blue-light text-decoration-none d-block"><strong>214-532-6820</strong></Link>
                 <Link to={"//www.linkedin.com/"} target="_blank" className="d-block mt-5">
                     <svg xmlns="http://www.w3.org/2000/svg" style={{width:"25px",height:"auto"}} viewBox="0 0 448.1 512"><path fill="white" d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z"/></svg>
                     </Link>
@@ -137,7 +137,7 @@ function Navbar () {
                 </div>
                 </div>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-center justify-content-md-end" style={{textAlign:"right"}}>
+                    <div className="col-lg-3 d-flex justify-content-center justify-content-lg-end" style={{textAlign:"right"}}>
                         <div>
                     <a href="tel:+12145326820" className="text-white h2 bold">214-532-6820</a> 
                     <span className="d-block text-center text-white">Rick Dodd</span>

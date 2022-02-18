@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 // import { Link } from 'react-router-dom';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
+import './About.css'
 
 function About() {
     return (
@@ -24,7 +25,7 @@ function About() {
     img = '/images/Dallas-Jib-Cameraman-Operator-06.jpg'
     // button = {<><Link to='/about/' className="btn btn-main">LEARN MORE</Link></>}
     />
-    <section className="pt-5 pb-5 position-relative d-flex align-items-center" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-01.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover"}}>
+    <section className="pt-5 pb-5 position-relative d-flex align-items-center full-height" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-01.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover"}}>
     <div className="position-absolute w-100 h-100 bg-black" style={{mixBlendMode:"multiply",top:"0",left:"0",opacity:".5"}}></div>
         <div className="container position-relative">
             <div className="row">
@@ -35,7 +36,7 @@ function About() {
             </div>
         </div>
     </section>
-    <section className="pt-5 pb-5 position-relative d-flex align-items-center" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-02.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover"}}>
+    <section className="pt-5 pb-5 position-relative d-flex align-items-center full-height" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-02.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover"}}>
     <div className="position-absolute w-100 h-100 bg-black" style={{mixBlendMode:"multiply",top:"0",left:"0",opacity:".5"}}></div>
         <div className="container position-relative">
             <div className="row">
@@ -46,7 +47,7 @@ function About() {
             </div>
         </div>
     </section>
-    <section className="pt-5 pb-5 position-relative d-flex align-items-center" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-03.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover",backgroundPosition:"center bottom"}}>
+    <section className="pt-5 pb-5 position-relative d-flex align-items-center full-height" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-03.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover",backgroundPosition:"center bottom"}}>
     <div className="position-absolute w-100 h-100 bg-black" style={{mixBlendMode:"multiply",top:"0",left:"0",opacity:".5"}}></div>
         <div className="container position-relative">
             <div className="row">
@@ -57,7 +58,7 @@ function About() {
             </div>
         </div>
     </section>
-    <section className="pt-5 pb-5 position-relative d-flex align-items-center" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-08.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover",backgroundPosition:"center bottom"}}>
+    <section className="pt-5 pb-5 position-relative d-flex align-items-center full-height" style={{height:"100vh",background:"url(/images/Dallas-Jib-Cameraman-Operator-08.jpg)",backgroundAttachment:"fixed",backgroundSize:"cover",backgroundPosition:"center bottom"}}>
     <div className="position-absolute w-100 h-100 bg-black" style={{mixBlendMode:"multiply",top:"0",left:"0",opacity:".5"}}></div>
         <div className="container position-relative">
             <div className="row">
